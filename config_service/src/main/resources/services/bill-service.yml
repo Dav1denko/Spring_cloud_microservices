@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    hibernate:
+      ddl-auto: create
+    properties:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://*.*.*.*:5432/bill_service_database
+    username: postgres
+    password: test
+    driver-class-name: org.postgresql.Driver
+
+server:
+  servlet:
+    context-path: /bills
+  port: 8082
+
+
+# *.*.*.*:5432 - your Local IP for connect SQL

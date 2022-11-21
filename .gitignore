@@ -1,0 +1,18 @@
+# Project exclude paths
+/.gradle/
+/account_service/build/
+/account_service/build/classes/java/main/
+/bill_service/build/
+/bill_service/build/classes/java/main/
+/build/
+/config_service/build/
+/config_service/build/classes/java/main/
+/deposit_service/build/
+/deposit_service/build/classes/java/main/
+/deposit_service/build/classes/java/test/
+/gateway/build/
+/gateway/build/classes/java/main/
+/notification_service/build/
+/notification_service/build/classes/java/main/
+/registry/build/
+/registry/build/classes/java/main/
